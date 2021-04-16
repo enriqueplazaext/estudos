@@ -1,0 +1,118 @@
+header{
+  background-color: #FFFFFF;
+  padding: 20px 0;
+}
+
+.caixa{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav{
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li{
+  display: inline;
+}
+
+nav a{
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  color: rgb(22,123,247);
+}
+
+.banner{
+  margin: 0 auto;
+}
+
+#imagem-banner{
+  width: 100%
+}
+
+main{
+  background-color: #BBBBBB;
+  padding-top: 10px;
+}
+
+h2{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.introducao{
+  padding: 30px;
+  position: relative;
+}
+
+.introducao p{
+ margin: 20px 0;
+ text-align: center;
+}
+
+.introducao em{
+  font-size: 20px;
+  font-style: italic;
+}
+
+#negrito{
+  font-weight: bold;
+}
+
+#negrito-italico{
+  font-weight: bold;
+  color: red;
+}
+
+.beneficios{
+  padding-bottom: 200px;
+  position: relative;
+}
+
+.beneficios-descricao{
+  width: 50%;
+  position: absolute;
+  left: 0;
+}
+
+.beneficios-descricao ul{
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  margin-left: 20%;
+  font-size: 30px;
+}
+
+.imagem-beneficios{
+  width: 50%;
+  position: absolute;
+  right: 0;
+}
+
+#imagem-jpg{
+  width: 100%;
+  display: block;
+}
+
+footer{
+  text-align: center;
+  background: url("Imagens/bg.jpg");
+}
+
+.copyright{
+  margin-top: 20px;
+  font-size: 13px;
+  color: #FFFFFF;
+}

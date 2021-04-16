@@ -1,0 +1,116 @@
+/* header {
+  padding: 20px;
+  background-color: black;
+  border: 2px solid #000;
+} */
+
+/* 
+.conteiner-01{
+  width: 33%;
+  position: absolute;
+  left: 0;
+}
+
+.conteiner-02{
+  width: 33%;
+  position: absolute;
+  right: 33%;
+}
+
+.conteiner-03{
+  width: 33%;
+  position: absolute;
+    right: 0;
+} */
+
+/* 
+.bloco-amarelo {
+  width: calc(33% - 4px);
+  padding: 20px;
+  color: #000;
+  background-color: yellow;
+  border: 2px solid #000;
+}
+
+.bloco-verde {
+  width: calc(33% - 4px);
+  padding: 20px;
+  background-color: green;
+  border: 2px solid #000;
+}
+
+.bloco-azul {
+  width: calc(33% - 4px);
+  padding: 20px;
+  background-color: blue;
+  border: 2px solid #000;
+}
+
+.bloco-vermelho {
+  width: calc(33% - 4px);
+  padding: 20px;
+  background-color: red;
+  border: 2px solid #000;
+} */
+
+body * {
+  box-sizing: border-box;
+}
+
+.conteiner {
+  text-align: left;
+  display: flex;
+  flex-direction: row; /* padrão é row */
+  align-content: stretch; /* padrão é stretch */
+  flex-wrap: wrap; /* padrão é nowrap */
+  /* gap: 5px; */ /* espaçamento entre os filhos */
+  /* margin: 5px; */ /* espaçamento antes do pai */
+}
+
+h1 {
+  font-size: 20px;
+}
+
+p { 
+  font-size: 16px; 
+}
+
+.titulo, .artigo, .anuncio, .conteudo, .secao {
+  padding: 20px;
+  border: 2px solid black;
+  /* position: relative;
+  float: left; */
+}
+
+.artigo, .anuncio, .conteudo, .secao {
+  width: calc(33.33%);
+}
+
+.titulo{
+  width: calc(100% - 4px);
+  width: 100%;
+}
+
+ .texto-branco {
+   color: white;
+ }
+
+ .fundo-preto {
+   background-color: black;
+ }
+
+ .fundo-amarelo {
+   background-color: yellow;
+ }
+
+ .fundo-verde {
+   background-color: green;
+ }
+
+ .fundo-azul {
+   background-color: blue;
+ }
+
+ .fundo-vermelho {
+   background-color: red;
+ }
